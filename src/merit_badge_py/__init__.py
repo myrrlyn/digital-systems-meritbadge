@@ -1,2 +1,6 @@
+from . import rps
+
+
 def main() -> None:
-    print("Hello from merit-badge-py!")
+    game = rps.RpsGame()
+    game.play_forever()
