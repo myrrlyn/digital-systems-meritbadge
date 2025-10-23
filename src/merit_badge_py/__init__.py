@@ -2,5 +2,5 @@ from . import rps
 
 
 def main() -> None:
-    game = rps.RpsGame()
+    game = rps.Game()
     game.play_forever()
